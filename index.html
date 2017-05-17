@@ -1,6 +1,420 @@
-<div style="margin: 50px auto; width: 300px; text-align:center">
-    <h1 style="font-size: 3em">Zurist</h1>
-    <img src="images/icon-big.png" style="height: 300px; margin-bottom:10px"><br/>
-    <h3>Public Help Desk</h3>
-    <i> Coming soon </i>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>Ride Sharing / Car Pooling through whatsapp group</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/metisMenu.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="./fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="./fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="./css/style.css">		
+
+</head>
+
+<body class="landing-page">
+
+<nav class="navbar navbar-default" style="margin-bottom:0">
+    <div class="container">
+        <div class="navbar-header" style="margin-top:18px">
+            <!--<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>-->
+<style>
+@font-face {
+  font-family: 'Variane';
+  src: url('./fonts/Variane.ttf') format('truetype');
+}
+.highlight {
+	font-family: 'Variane';
+	color: #62cb31;
+	font-weight: 100 !important;
+	font-size: 1.2em !important;
+}
+img.shadow {
+	box-shadow: 5px 10px 10px #888888;
+}
+img.bottom-space {
+	margin-bottom:40px
+}
+.prevent-overflow
+{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width:100%;
+    display:block;
+    color: inherit !important;
+}
+.prevent-overflow b {
+  position:relative;
+  top: -3px;
+}
+
+.landing-page .heading .hpanel {
+  color: #6a6c6f !important;
+}
+
+.well {
+  margin: 1px !important;
+  padding: 1px 5px !important;
+  font-size: 80% !important;
+}
+
+#discover-box input[type=text] {
+  height: 46px;
+  border: 0;
+}
+#discover-box .input-group {
+  margin-bottom: 1em;
+  border: 0.1px dashed #3498db !important;
+}
+#discover-box span {
+  border: 0;
+}
+#discover-box img {
+  margin-bottom: 1em;
+}
+
+
+</style>
+           <a href="/" target="_blank">
+               <img src="/images/icon-big.png" style="width:50px; margin-top: -15px;"/>
+               <span style="font-size: 3em; font-family: 'Variane'; font-weight: 100;" class="text-info">Zurist</span>
+           </a>
+        </div>
+        <!--<div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a class="page-scroll" href="#">Home</a></li>
+                <li><a class="page-scroll" page-scroll="" href="#how-it-works">How it Works</a></li>
+                <li><a class="page-scroll" page-scroll="" href="#features">Features</a></li>
+                <li><a class="page-scroll" page-scroll="" href="#contact">Questions ?</a></li>
+            </ul>
+        </div>-->
+    </div>
+</nav>
+
+
+
+<header id="page-top" style="height: auto !important; padding-bottom: 20px; background-color: #455463; background-image:none; position: relative">
+    <img src="../images/icon-big.png" style="position: absolute; opacity: 0.2; max-height: 400px; max-width: 100%"/>
+    <div class="container">
+        <div class="heading text-center" style="margin-top:10px;">
+            <h1>Making your voice heard</h1>
+            <p> Submit your complaint & out automated system will follow-up till your issue get resolved</p>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+            <!-- hpanel -->
+	    <div class="hpanel hblue">
+                <div class="panel-body">
+
+                    <form name="simpleForm" novalidate="" id="simpleForm" action="#" method="post">
+
+                        <div class="tab-content">
+                        <div id="step1" class="p-m tab-pane active">
+
+                            <div class="row">
+                                <!--
+                                <div class="col-lg-3 text-center">
+                                    <i class="pe-7s-user fa-5x text-muted"></i>
+                                    <p class="small m-t-md">
+                                        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                                        <br><br>Lorem Ipsum has been the industry's dummy text of the printing and typesetting
+                                    </p>
+                                </div>
+                                -->
+                                <div class="col-lg-8 col-lg-offset-2">
+                                    <div class="row">
+                                        <div class="form-group col-lg-12">
+                                            <label>Username</label>
+                                            <input type="" value="" id="" class="form-control" name="username" placeholder="username">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Password</label>
+                                            <input type="password" value="" id="" class="form-control" name="" placeholder="******">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Company</label>
+                                            <input type="text" value="" id="" class="form-control" name="" placeholder="Company Name">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Email Address</label>
+                                            <input type="" value="" id="" class="form-control" name="" placeholder="user@email.com">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Country</label>
+                                            <input type="text" value="" id="" class="form-control" name="" placeholder="UK">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-right m-t-xs">
+                                <a href="#" class="btn btn-info btn-lg">Prev</a>
+                                <a href="#" class="btn btn-info btn-lg">Next</a>
+                            </div>
+
+                        </div>
+
+                        <div id="step2" class="p-m tab-pane">
+
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <i class="pe-7s-credit fa-5x text-muted"></i>
+                                    <p class="small m-t-md">
+                                        <strong>It is a long</strong> established fact that a reader will be distracted by the readable
+                                        <br><br>Many desktop publishing packages and web page editors now use
+                                    </p>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="row">
+                                        <div class="form-group col-lg-12">
+                                            <label>Name on Card</label>
+                                            <input type="" value="" id="" class="form-control" name="card_name">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Card Number</label>
+                                            <input type="text" value="" id="" class="form-control" name="">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label>Billing Address</label>
+                                            <input type="text" value="" id="" class="form-control" name="">
+                                        </div>
+                                        <div class="form-group col-lg-12">
+                                            <div class="row">
+                                                <div class="col-xs-4 form-group">
+                                                    <label>CVC</label>
+                                                    <input class="form-control" placeholder="ex. 381" type="text" name="cvc">
+                                                </div>
+                                                <div class="col-xs-4 form-group">
+                                                    <label>Expiration</label>
+                                                    <input class="form-control" placeholder="MM" type="text" name="expire_month">
+                                                </div>
+                                                <div class="col-xs-4 form-group">
+                                                    <label></label>
+                                                    <input class="form-control" placeholder="YYYY" type="text" name="expire_year">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right m-t-xs">
+                                <a href="#" class="btn btn-info btn-lg">Prev</a>
+                                <a href="#" class="btn btn-info btn-lg">Next</a>
+                            </div>
+
+                        </div>
+                        <div id="step3" class="tab-pane">
+                            <div class="row text-center m-t-lg m-b-lg">
+                                <div class="col-lg-12">
+                                    <i class="pe-7s-check fa-5x text-muted"></i>
+                                    <p class="small m-t-md">
+                                        <strong>There are many</strong> variations of passages of Lorem Ipsum available, but the majority have suffered
+                                    </p>
+                                </div>
+                                <div class="checkbox col-lg-12">
+                                    <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks approveCheck" name="approve" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                    Approve this form
+                                </div>
+                            </div>
+                            <div class="text-right m-t-xs">
+                                <a class="btn btn-default prev" href="#">Previous</a>
+                                <a class="btn btn-default next" href="#">Next</a>
+                                <a class="btn btn-success submitWizard" href="#">Submit</a>
+                            </div>
+                        </div>
+                        </div>
+                    </form>
+                    <!--
+                    <div class="m-t-md">
+
+                        <p>
+                            This is an example of a wizard form which can be easy adjusted. Since each step is a tab, and each clik to next tab is a function you can easily add validation or any other functionality.
+                        </p>
+
+                    </div>
+                       -->
+                </div>
+            </div>
+            <!-- hpanel -->
+                </div> <!-- col -->
+            </div><!-- row -->
+            <!--<a href="#how-it-works" class="btn btn-primary btn-lg page-scroll">Learn More</a>-->
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="text-center">
+              <i class="fa fa-check-square-o icon-big"></i>
+            </div>
+            <h4 class="text-center">Everybody has Whatsapp</h4>
+            <p>Nobody might be requesting/offering a ride when you are looking but someone will. Be the part of the group.Once you find someone, you can interact with him/her through one on one whatsapp message.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+              <i class="fa fa-meh-o icon-big"></i>
+            </div>
+            <h4 class="text-center">Mitigate trust issues</h4>
+            <p>Join <b>only</b> your <i>apartment</i>-<i>company</i> group if you do not want to pool with strangers. If you are really particular, insist on person's picture of his/her company id card to be shared with you in one on one whatsapp messaging.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+              <i class="fa pe-7s-trash icon-big"></i>
+              <i class="fa fa-times fa-4x" style="position:relative; margin-left:-45px; top: -10px"></i>
+            </div>
+            <h4 class="text-center">Spam Free</h4>
+            <p>You can leave whenever you want to. Mute the group if you getting too many notification. There is very less chance of someone spamming you on Whatsapp as Whatsapp folks take 'report spam' very seriously. It is extremely painful to get another phone number unlike creating a new account or getting a new email address.</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="components" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2 class="text-center" style="margin-bottom:1em">Discover & Join <span style="font-family: 'Variane'; font-size: 1.5em" class="text-info">Pillion</span> groups</h2>
+	          	  <div class="hpanel hblue" id="discover-box">
+                    <div class="panel-body text-center h-200">
+                      <div class="row">
+                        <div class="col-lg-2">
+                          <img src="../images/logo.gif" style="width:100px;"/>
+                        </div>
+                        <div class="col-lg-10">
+                          <div class="input-group"> 
+                            <span class="input-group-addon"><i class="fa fa-2x fa-home"></i></span> <input type="text" class="form-control" id="home" name="home" placeholder="Type Home Location">
+                          </div>
+                          <div class="input-group"> 
+                            <span class="input-group-addon"><i class="fa fa-2x fa-laptop"></i></span> <input type="text" class="form-control" id="office" name="home" placeholder="Type Office Location">
+                          </div>
+                          <a href="#" onclick="doSearch()" class="btn btn-lg btn-info"> Search</a>
+                        </div><!-- col -->
+                      </div><!-- row -->
+                   </div><!--panel-body-->
+                </div><!--hpanel-->
+            </div>
+        </div><!-- row -->
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="hpanel filter-item">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-xs-7">
+                           <p class="m-b-xs prevent-overflow"><i class="fa fa-2x fa-home"></i> <b>Brigade Gardenia, Kothnur Village Main Road, JP Nagar, Bengaluru, Karnataka, India</b></p>
+                           <p class="m-b-xs prevent-overflow"><i class="fa fa-2x fa-laptop"></i> <b>IIM Bangalore, Bengaluru, Karnataka, India</b></p>
+                        </div>
+                        <div class="col-xs-5">
+                          <div class="text-right">
+                              <small class="stat-label">20 members <i class="fa fa-2x fa-group"></i></small>
+                              <p class="small">Creator: Konal Gondal <i class="fa fa-2x fa-thumbs-o-up"></i></p>
+                          </div>
+                       </div>
+                      </div><!-- row -->
+                      <div class="text-center" style="margin-top:1em">
+                         <h4><a href="#" class="btn btn-primary">Get whatsapp group link to join</a></h4>
+                      </div>
+                    </div><!-- panel-body -->
+                </div><!-- hpanel -->
+            </div><!-- col-lg-8 -->
+       </div>
+       <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="hpanel hgreen filter-item">
+                    <div class="panel-body">
+                        <h4 class="text-center"> Could not find a relevant group ? &nbsp;&nbsp;<i class="fa fa-2x fa-frown-o" style="margin-top:10px;"></i></h4>
+                        <div class="m-b-xs">
+                          <div class="pull-right">
+                              <h4><a href="#" class="btn btn-success">Submit Group</a></h4>
+                          </div>
+                          <p>You may create a new whatsapp group & submit here. <br/>If you are admin of a group that is not submitted here, feel free to submit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+     </div>
+</section>
+
+<!-- Vendor scripts -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery-ui.min.js"></script>
+<script src="./js/jquery.slimscroll.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/metisMenu.min.js"></script>
+<script src="./js/icheck.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/jquery.highlight.js"></script>
+<script src="./js/jquery.cookie.js"></script>
+<script src="./js/jquery.flexverticalcenter.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVhHECf24H7Dv6aA96hkhgxFoP9ErB7zY&libraries=places"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
+
+
+<!-- Local script for menu handle -->
+<!-- It can be also directive -->
+<script>
+    var client, index, autocomplete_home, autocomplete_office
+
+    $(document).ready(function () {
+
+            autocomplete_home = new google.maps.places.Autocomplete(document.getElementById('home'), {});
+            autocomplete_office = new google.maps.places.Autocomplete(document.getElementById('office'), {});
+
+
+        client = algoliasearch('W1OPFFHKXI', '1a983b6bb690f9e517c3eda107f3c98d');
+        index = client.initIndex('pillion');
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+        });
+
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+        $("#discover-box input[type=text]").focus(function(){
+          $(this).val('')
+        })
+        
+
+    });
+
+    function doSearch() {
+        index.search($("#home").val() + " " + $("#office").val()
+          , function searchDone(err, content) {
+            console.log(err, content);
+        });
+    }
+    $("i").addClass("text-info");
+</script>
+
+
+</body></html>

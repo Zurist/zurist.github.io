@@ -1,0 +1,15 @@
+{
+    "name": "Team Pillion",
+    "email": process.env.email,
+    "username": process.env.email,
+    "password": process.env.password,
+    "imap": {
+        "host": "imap.gmail.com",
+        "port": 993,
+        "secure": true
+    },
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "ssl": true
+    }
+}
