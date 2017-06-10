@@ -9,7 +9,7 @@
         <title>Centralized complaint/feedback platform</title>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+        <link rel="shortcut icon" type="images" href="favicon.ico" />
 
         <!-- Vendor styles -->
         <link rel="stylesheet" href="./css/font-awesome.css">
@@ -177,76 +177,64 @@ img.bottom-space {
                                                         </div>
 
                                                     </div>
-
+							
+							<!-- Second Screen-->
                                                     <div id="step2" class="p-m tab-pane">
-
-                                                        <div class="row">
-                                                            <div class="col-lg-3 text-center">
-                                                                <i class="pe-7s-credit fa-5x text-muted"></i>
-                                                                <p class="small m-t-md">
-                                                                <strong>It is a long</strong> established fact that a reader will be distracted by the readable
-                                                                <br><br>Many desktop publishing packages and web page editors now use
-                                                                </p>
-                                                            </div>
-                                                            <div class="col-lg-9">
+							<div class="row">
+							     <div class="col-lg-12">		
+							       <a href="#step1" data-toggle="tab" class="pul-left">
+                                                                <i class="fa fa-mail-reply fa-3x pull-left" style="color: inherit"></i></a>
+	                                                        <div class="row">
+        	                                                    <div class="form-group col-lg-12">
+                                                                <i class="fa fa-pencil-square-o icon-big text-info" style="margin-bottom: 20px"></i><br/>
                                                                 <div class="row">
-                                                                    <div class="form-group col-lg-12">
-                                                                        <label>Name on Card</label>
-                                                                        <input type="" value="" id="" class="form-control" name="card_name">
-                                                                    </div>
-                                                                    <div class="form-group col-lg-6">
-                                                                        <label>Card Number</label>
-                                                                        <input type="text" value="" id="" class="form-control" name="">
-                                                                    </div>
-                                                                    <div class="form-group col-lg-6">
-                                                                        <label>Billing Address</label>
-                                                                        <input type="text" value="" id="" class="form-control" name="">
+                                                                   <div class="form-group col-lg-12">
+                                                                      <label>Subject</label>
+									<input type="" value="" id="" class="form-control" name="Subject"></p>
                                                                     </div>
                                                                     <div class="form-group col-lg-12">
-                                                                        <div class="row">
-                                                                            <div class="col-xs-4 form-group">
-                                                                                <label>CVC</label>
-                                                                                <input class="form-control" placeholder="ex. 381" type="text" name="cvc">
-                                                                            </div>
-                                                                            <div class="col-xs-4 form-group">
-                                                                                <label>Expiration</label>
-                                                                                <input class="form-control" placeholder="MM" type="text" name="expire_month">
-                                                                            </div>
-                                                                            <div class="col-xs-4 form-group">
-                                                                                <label></label>
-                                                                                <input class="form-control" placeholder="YYYY" type="text" name="expire_year">
-                                                                            </div>
-                                                                        </div>
+                                                                    <label>Complaint Description (Max. 250 Characters)</label>
+							     		<textarea class="note-codable form-control"></textarea>
+								
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+							     </div>
+							          </div>
                                                         <div class="text-right m-t-xs">
-                                                            <a href="#" class="btn btn-info btn-lg">Prev</a>
-                                                            <a href="#" class="btn btn-info btn-lg">Next</a>
+                                                            <a href="#step3" data-toggle="tab" class="btn btn-info btn-lg">Share Proof</a>
                                                         </div>
+                                                    </div>
 
-                                                    </div>
-                                                    <div id="step3" class="tab-pane">
-                                                        <div class="row text-center m-t-lg m-b-lg">
-                                                            <div class="col-lg-12">
-                                                                <i class="pe-7s-check fa-5x text-muted"></i>
-                                                                <p class="small m-t-md">
-                                                                <strong>There are many</strong> variations of passages of Lorem Ipsum available, but the majority have suffered
-                                                                </p>
-                                                            </div>
-                                                            <div class="checkbox col-lg-12">
-                                                                <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks approveCheck" name="approve" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                                                                Approve this form
+						<!-- Third Screen -->                                          
+                                                    <div id="step3" class="p-m tab-pane">
+							<div class="row">
+							     <div class="col-lg-12">		
+							       <a href="#step1" data-toggle="tab" class="pul-left">
+                                                                <i class="fa fa-mail-reply fa-3x pull-left" style="color: inherit"></i></a>
+	                                                        <div class="row">
+        	                                                    <div class="form-group col-lg-12">
+                                                                <i class="fa fa-pencil-square-o icon-big text-info" style="margin-bottom: 20px"></i><br/>
+                                                                <div class="row">
+                                                                   <div class="form-group col-lg-12">
+                                                                      <label>Subject</label>
+									<input type="" value="" id="" class="form-control" name="Subject"></p>
+                                                                    </div>
+                                                                    <div class="form-group col-lg-12">
+                                                                    <label>Complaint Description (Max. 250 Characters)</label>
+							     		<textarea class="note-codable form-control"></textarea>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
+							     </div>
+							          </div>
                                                         <div class="text-right m-t-xs">
-                                                            <a class="btn btn-default prev" href="#">Previous</a>
-                                                            <a class="btn btn-default next" href="#">Next</a>
-                                                            <a class="btn btn-success submitWizard" href="#">Submit</a>
+                                                            <a href="#step2" data-toggle="tab" class="btn btn-info btn-lg">Share Proof</a>
                                                         </div>
                                                     </div>
-                                                </div>
+						</div>
                                             </form>
                                             <!--
                                                 <div class="m-t-md">
@@ -267,101 +255,6 @@ img.bottom-space {
                 </div>
         </header>
 
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <i class="fa fa-check-square-o icon-big"></i>
-                        </div>
-                        <h4 class="text-center">Everybody has Whatsapp</h4>
-                        <p>Nobody might be requesting/offering a ride when you are looking but someone will. Be the part of the group.Once you find someone, you can interact with him/her through one on one whatsapp message.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <i class="fa fa-meh-o icon-big"></i>
-                        </div>
-                        <h4 class="text-center">Mitigate trust issues</h4>
-                        <p>Join <b>only</b> your <i>apartment</i>-<i>company</i> group if you do not want to pool with strangers. If you are really particular, insist on person's picture of his/her company id card to be shared with you in one on one whatsapp messaging.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <i class="fa pe-7s-trash icon-big"></i>
-                            <i class="fa fa-times fa-4x" style="position:relative; margin-left:-45px; top: -10px"></i>
-                        </div>
-                        <h4 class="text-center">Spam Free</h4>
-                        <p>You can leave whenever you want to. Mute the group if you getting too many notification. There is very less chance of someone spamming you on Whatsapp as Whatsapp folks take 'report spam' very seriously. It is extremely painful to get another phone number unlike creating a new account or getting a new email address.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="components" class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2 class="text-center" style="margin-bottom:1em">Discover & Join <span style="font-family: 'Variane'; font-size: 1.5em" class="text-info">Pillion</span> groups</h2>
-                        <div class="hpanel hblue" id="discover-box">
-                            <div class="panel-body text-center h-200">
-                                <div class="row">
-                                    <div class="col-lg-2">
-                                        <img src="../images/logo.gif" style="width:100px;"/>
-                                    </div>
-                                    <div class="col-lg-10">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-2x fa-home"></i></span> <input type="text" class="form-control" id="home" name="home" placeholder="Type Home Location">
-                                        </div>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-2x fa-laptop"></i></span> <input type="text" class="form-control" id="office" name="home" placeholder="Type Office Location">
-                                        </div>
-                                        <a href="#" onclick="doSearch()" class="btn btn-lg btn-info"> Search</a>
-                                    </div><!-- col -->
-                                </div><!-- row -->
-                            </div><!--panel-body-->
-                        </div><!--hpanel-->
-                    </div>
-                </div><!-- row -->
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="hpanel filter-item">
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-xs-7">
-                                        <p class="m-b-xs prevent-overflow"><i class="fa fa-2x fa-home"></i> <b>Brigade Gardenia, Kothnur Village Main Road, JP Nagar, Bengaluru, Karnataka, India</b></p>
-                                        <p class="m-b-xs prevent-overflow"><i class="fa fa-2x fa-laptop"></i> <b>IIM Bangalore, Bengaluru, Karnataka, India</b></p>
-                                    </div>
-                                    <div class="col-xs-5">
-                                        <div class="text-right">
-                                            <small class="stat-label">20 members <i class="fa fa-2x fa-group"></i></small>
-                                            <p class="small">Creator: Konal Gondal <i class="fa fa-2x fa-thumbs-o-up"></i></p>
-                                        </div>
-                                    </div>
-                                </div><!-- row -->
-                                <div class="text-center" style="margin-top:1em">
-                                    <h4><a href="#" class="btn btn-primary">Get whatsapp group link to join</a></h4>
-                                </div>
-                            </div><!-- panel-body -->
-                        </div><!-- hpanel -->
-                    </div><!-- col-lg-8 -->
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="hpanel hgreen filter-item">
-                            <div class="panel-body">
-                                <h4 class="text-center"> Could not find a relevant group ? &nbsp;&nbsp;<i class="fa fa-2x fa-frown-o" style="margin-top:10px;"></i></h4>
-                                <div class="m-b-xs">
-                                    <div class="pull-right">
-                                        <h4><a href="#" class="btn btn-success">Submit Group</a></h4>
-                                    </div>
-                                    <p>You may create a new whatsapp group & submit here. <br/>If you are admin of a group that is not submitted here, feel free to submit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
         <!-- Vendor scripts -->
         <script src="./js/jquery.min.js"></script>
